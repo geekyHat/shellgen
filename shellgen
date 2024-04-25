@@ -38,11 +38,11 @@ display_usage() {
 	###Displays Header
 	header 
 	
-	echo -e "${PINK}\n  Usage:\n  ./shellgen <ip/interface name> <listen port>${RESET}" 
-	echo -e "${PINK}  ./shellgen <ip/interface name> <listen port> <shell type>${RESET}\n"
+	echo -e "${BLUE}\n  Usage:\n  ./shellgen <ip/interface name> <listen port>${RESET}" 
+	echo -e "${BLUE}  ./shellgen <ip/interface name> <listen port> <shell type>${RESET}\n"
 	echo "Example usage:"
-	echo -e "${PINK}  ./shellgen 10.10.10.10 9999${RESET}"
-	echo -e "${PINK}  ./shellgen eth0 9999 bash${RESET}\n "
+	echo -e "${GREEN}  ./shellgen 10.10.10.10 9999${RESET}"
+	echo -e "${GREEN}  ./shellgen eth0 9999 bash${RESET}\n "
 	
 	echo "Shell Options:"
 	echo -e "${PINK}  [bash, sh] [perl, pl] [python, py] [php] [ruby, rb] [netcat, nc] [java] [msfvenom, msf]${RESET}\n "
